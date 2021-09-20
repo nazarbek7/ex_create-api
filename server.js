@@ -6,7 +6,7 @@ const path = require('path');
 
 // Index page
 app.get('/', function(req, res) {
-    res.sendFile(path.resolve(__dirname, '/index.html'));
+    res.sendFile(path.resolve(__dirname, 'index.html'));
 });
 // CSS Prefixed
 app.use(express.static(__dirname + '/'));
