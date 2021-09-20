@@ -16,8 +16,6 @@ Installation is done using the
 
 ```bash
 $ npm install
-# and 
-$ npm install express
 ```
 
 And, run the development server:

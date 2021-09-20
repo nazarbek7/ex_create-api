@@ -17,6 +17,11 @@
   border-top: 2px solid #ccc;
 }
 
+.history button {
+  max-width: 150px;
+  margin: 0 0 20px 0;
+}
+
 .history__item {
   display: flex;
   align-items: center;

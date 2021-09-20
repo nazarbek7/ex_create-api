@@ -4,6 +4,24 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="server.js"></script>
+    <script>
+        function getValue() {
+            fetch('/getValue')
+            .then(res => res.json())
+            .then(response => {
+                console.log(response, 'response')
+            })
+        }
+
+        function createValue() {
+            fetch('http://localhost:8080/getValue')
+                .then(res => res.json())
+                .then(response => {
+                    console.log(response, 'response')
+                })
+        }
+    </script>
 </head>
 <body>
 <div class="container">
@@ -14,6 +32,7 @@
     </form>
 
     <div class="history">
+        <button onclick="getValue()">Get history</button>
         <div class="history__item">
             <span>id: <i>1</i></span>
             <span>value: <i>5</i></span>
