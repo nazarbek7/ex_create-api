@@ -1,0 +1,38 @@
+* {
+  font-family: "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  margin: 4rem auto auto 2rem;
+}
+
+span {
+  font-weight: bold;
+}
+
+input {
+  padding: 10px 20px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+
+button {
+  padding: 10px 20px;
+  line-height: 1.5;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #e96e50;
+  color: #ffffff;
+  background-color: #e96e50;
+  border-radius: 3px;
+}
+
+button {
+  cursor: pointer
+}

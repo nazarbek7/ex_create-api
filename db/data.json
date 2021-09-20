@@ -1,0 +1,26 @@
+{
+  "user1": {
+    "id": 1,
+    "value": "5",
+    "fix_value": "2",
+    "result": "10"
+  },
+  "user2": {
+    "id": 2,
+    "value": "1",
+    "fix_value": "2",
+    "result": "2"
+  },
+  "user3": {
+    "id": 3,
+    "value": "12",
+    "fix_value": "2",
+    "result": "24"
+  },
+  "user4": {
+    "id": 4,
+    "value": "7",
+    "fix_value": "2",
+    "result": "14"
+  }
+}
