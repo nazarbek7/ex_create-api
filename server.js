@@ -4,7 +4,7 @@ const app = express();
 const fs = require('fs'); //require file system object
 
 // Endpoint to Get a list of users
-app.get('/getUsers', function(req, res){
+app.get('/getValue', function(req, res){
     fs.readFile(__dirname + "/db/" + "data.json", 'utf8', function(err, data){
         console.log(data);
         res.end(data); // you can also use res.send()
