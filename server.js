@@ -6,9 +6,9 @@ const path = require('path');
 
 // Index page
 app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname, '/index.html'));
+    res.sendFile(path.resolve(__dirname, '/index.html'));
 });
-// CSS
+// CSS Prefixed
 app.use(express.static(__dirname + '/'));
 
 // Endpoint to Get a list of users
