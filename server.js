@@ -2,6 +2,14 @@
 const express = require('express'); // requre the express framework
 const app = express();
 const fs = require('fs'); //require file system object
+const path = require('path');
+
+// Index page
+app.get('/', function(req, res) {
+    res.sendFile(path.join(__dirname, '/index.html'));
+});
+// CSS
+app.use(express.static(__dirname + '/'));
 
 // Endpoint to Get a list of users
 app.get('/getValue', function(req, res){
